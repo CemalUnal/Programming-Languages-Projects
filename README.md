@@ -8,7 +8,7 @@ while I am studying Programming Languages
 
 ## Parser of My Programming Language
 
-- [Lex and Yacc Files](Parser of My Language/src)
+- [Lex and Yacc Files](Parser-of-My-Language)
 
 ## Scheme Code Snippets
 
