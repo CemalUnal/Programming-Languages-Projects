@@ -1,0 +1,80 @@
+INTEGER X
+INTEGER Y=10
+
+STRING YSdsds34D3="CEMAL"
+STRING YS4="CEMAL"
+
+CHAR ADS='X'
+
+BOOLEAN A1=TRUE
+
+FLOAT MyFloat2
+MyFloat2=3.4
+FLOAT MyFloat2=3+4+5+5+5
+
+IF(TRUE)
+BEGIN
+	BOOLEAN A1=TRUE
+	FLOAT MyFloat2=3+4+5+5+5
+	STRING YSdsds34D3="CEMAL"
+	STRING YS4="CEMAL"
+	NEWLINE
+END
+IF(i!=5)
+BEGIN
+	BOOLEAN A1=TRUE
+	FLOAT MyFloat2=3+4+5+5+5
+	STRING YSdsds34D3="CEMAL"
+	STRING YS4="CEMAL"
+END
+ELSE
+BEGIN
+	STRING YS4="CEMAL"
+END
+
+WHILE(TRUE)
+BEGIN
+	BOOLEAN A1=TRUE
+	FLOAT MyFloat2=3+4+5+5+5
+	STRING YSdsds34D3="CEMAL"
+	STRING YS4="CEMAL"
+	WORDCOUNT ("input.txt")
+END
+
+FOR(INTEGER i=0;i<5;i=i+1)
+BEGIN
+	BOOLEAN A1=TRUE
+	FLOAT MyFloat2=3+4+5+5+5
+	STRING YSdsds34D3="CEMAL"
+	STRING YS4="CEMAL"
+	PRINT ("deneme1")
+	FILEWRITE ("output.txt","hello")
+END
+
+
+INTEGER i(5)
+
+STRING myStringArray55(2)=["cemal","caner"]
+
+FUNCTION A1(asd3,x)
+BEGIN
+	asd3="cemal"
+	x=x+1
+END
+
+FILEOPEN ("input.txt")
+FILEREAD ("input.txt")
+FILEWRITE ("output.txt","hello")
+FILECLOSE ("input.txt")
+WORDCOUNT ("input.txt")
+FINDWORD ("deneme")
+REPLACEWORD ("cemal","CEMAL")
+COPYWORD ("MyString")
+CUTWORD ("Deneme")
+PASTEWORD ("dasd")
+
+A1(asd3,x)
+
+PRINT ("deneme1")
+NEWLINE
+PRINT ("deneme2")
